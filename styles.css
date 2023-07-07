@@ -108,3 +108,11 @@ header {
   border-radius: 8px;
   font-family: 'Inter', sans-serif;
 }
+
+.project .content {
+  margin-top: 50%;
+  background-color: white;
+  width: 327;
+  height: 222px;
+  border-radius: 8px;
+}
