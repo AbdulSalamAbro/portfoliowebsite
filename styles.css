@@ -202,6 +202,12 @@ header {
   margin-top: 20px;
 }
 
+.greenbtn:hover {
+  background-color: #067044;
+  font-weight: 700px;
+  width: 150px;
+}
+
 #aboutme-heading {
   display: flex;
   justify-content: center;
