@@ -237,3 +237,47 @@ header {
   justify-content: center;
   padding-bottom: 10px;
 }
+
+#portfolio-skills {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(300px, auto);
+  row-gap: 20px;
+  margin: 0 20px;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.portfolio-languages li {
+  background-color: white;
+  color: #36b37e;
+  padding: 4px 4px;
+  border-radius: 4px;
+  justify-content: space-around;
+}
+
+.portfolio-languages {
+  padding-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+  gap: 12px;
+}
+
+.portfolio-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebf0ee;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  color: #344563;
+  padding-bottom: 40px;
+}
+
+.portfolio-details h4 {
+  font-size: 24px;
+}
