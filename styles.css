@@ -231,3 +231,9 @@ header {
   background-repeat: no-repeat;
   background-position: left bottom;
 }
+
+#about-myself .btn {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
