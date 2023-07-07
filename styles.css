@@ -123,6 +123,13 @@ header {
   gap: 12px;
 }
 
+.languages li {
+  background-color: #ebf0ee;
+  color: #3a4a42;
+  padding: 4px 4px;
+  border-radius: 4px;
+}
+
 .project .languages {
   padding-top: 16px;
   display: flex;
