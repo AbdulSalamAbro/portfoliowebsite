@@ -322,3 +322,21 @@ form {
   margin-top: 20px;
   color: #172b4d;
 }
+
+form input {
+  padding: 10px;
+  padding-right: 94px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #42526e;
+}
+
+form textarea {
+  padding: 10px;
+  padding-right: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #42526e;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+}
