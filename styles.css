@@ -287,3 +287,38 @@ header {
 .portfolio-details h4 {
   font-size: 24px;
 }
+
+
+#contact-form {
+  background: url(assets/contact-frame.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+form {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  border-radius: 4px;
+  font-weight: 400;
+  width: 100%;
+}
+
+#contact-form p {
+  width: 327px;
+  height: 363px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  justify-content: center;
+  padding-left: 20px;
+  margin-top: 20px;
+  color: #172b4d;
+}
