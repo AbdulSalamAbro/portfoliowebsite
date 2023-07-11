@@ -288,7 +288,6 @@ header {
   font-size: 24px;
 }
 
-
 #contact-form {
   background: url(assets/contact-frame.svg);
   background-repeat: no-repeat;
@@ -345,7 +344,6 @@ form textarea {
   display: grid;
   justify-content: center;
 }
-
 
 #footer-line hr {
   width: 110px;
