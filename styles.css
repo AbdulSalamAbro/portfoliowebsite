@@ -38,7 +38,7 @@ header {
 #headline-section #name-heading {
   display: flex;
   justify-content: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -53,7 +53,7 @@ header {
 #headline-section #job-role {
   display: flex;
   justify-content: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -64,7 +64,7 @@ header {
 }
 
 #headline-section p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -108,7 +108,7 @@ header {
 #work-heading {
   display: flex;
   justify-content: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -149,7 +149,7 @@ header {
   background-color: #d0d9d4;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .content h3 {
@@ -190,7 +190,7 @@ header {
 
 .greenbtn {
   background: #36b37f;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -211,7 +211,7 @@ header {
 #aboutme-heading {
   display: flex;
   justify-content: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -224,7 +224,7 @@ header {
 }
 
 #about-myself p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -279,7 +279,7 @@ header {
   background-color: #ebf0ee;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #344563;
   padding-bottom: 40px;
 }
@@ -289,60 +289,82 @@ header {
 }
 
 #contact-form {
+  display: flex;
+  flex-direction: column;
   background: url(assets/contact-frame.svg);
   background-repeat: no-repeat;
   background-position: right bottom;
+  padding: 0px 20px 30px 20px;
 }
 
 form {
-  padding-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 10px;
+  gap: 30px;
   align-items: center;
-  font-family: 'Inter', sans-serif;
-  border-radius: 4px;
-  font-weight: 400;
-  width: 100%;
+  font-family: "Inter", sans-serif;
+
+  margin-top: 50px;
+  padding: 0px 10px 30px 10px;
 }
 
 #contact-form p {
-  width: 327px;
-  height: 363px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   text-align: center;
   justify-content: center;
-  padding-left: 20px;
-  margin-top: 20px;
+  margin-top: 50px;
   color: #172b4d;
 }
 
 form input {
-  padding: 10px;
-  padding-right: 94px;
-  margin-left: auto;
-  margin-right: auto;
-  color: #42526e;
+  width: 100%;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid #d0d9d4;
+  padding: 5px;
+}
+
+form input::placeholder {
+  padding-top: 15px;
+  padding-left: 16px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+form textarea::placeholder {
+  padding-top: 12px;
+  padding-left: 12px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 form textarea {
-  padding: 10px;
-  padding-right: 130px;
-  margin-left: auto;
-  margin-right: auto;
-  color: #42526e;
-  border: 1px solid #60c095;
+  width: 100%;
+  height: 114px;
   border-radius: 4px;
+  border: 1px solid #60c095;
+  padding: 5px;
 }
 
 #footer-line {
   display: grid;
   justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 
 #footer-line hr {
@@ -351,4 +373,20 @@ form textarea {
   background: black;
   border-radius: 24px;
   border: none;
+}
+
+#email-span {
+  height: 38px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
