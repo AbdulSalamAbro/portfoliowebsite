@@ -324,10 +324,13 @@ form {
 
 form input {
   padding: 10px;
-  padding-right: 94px;
+  padding-right: 110px;
   margin-left: auto;
   margin-right: auto;
   color: #42526e;
+  margin-top: 24px;
+  border: 1px solid #42526e;
+  border-radius: 4px;
 }
 
 form textarea {
@@ -338,6 +341,7 @@ form textarea {
   color: #42526e;
   border: 1px solid #60c095;
   border-radius: 4px;
+  margin-top: 24px;
 }
 
 #footer-line {
