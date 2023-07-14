@@ -371,6 +371,9 @@ form textarea {
   border: none;
 }
 
+#desktop-contactform{
+  display: none;
+}
 @media (min-width: 768px) {
   #navbar-grid {
     display: grid;
