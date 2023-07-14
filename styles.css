@@ -431,6 +431,19 @@ form textarea {
     justify-content: center;
     gap: 12px;
   }
+
+  #about-myself p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #42526e;
+    padding-left: 230px;
+    padding-right: 230px;
+    box-sizing: border-box;
+  }
   #mobile-navbar img{
     display: none;
   }
