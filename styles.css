@@ -444,6 +444,17 @@ form textarea {
     padding-right: 230px;
     box-sizing: border-box;
   }
+
+  #portfolio-skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(300px, auto);
+    row-gap: 20px;
+    justify-content: center;
+    column-gap: 10px;
+    margin-left: 98px;
+    margin-right: 98px;
+  }
   #mobile-navbar img{
     display: none;
   }
