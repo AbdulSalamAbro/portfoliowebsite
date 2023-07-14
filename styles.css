@@ -390,6 +390,12 @@ form textarea {
     font-family: 'Inter', sans-serif;
   }
 
+  #desktop-navbar a:hover,
+  #desktop-navbar a:focus {
+    color: darkgreen;
+    background-color: lightgreen;
+  }
+
   #headline-section {
     background-image: url("./assets/Header-llustration-desktop.png");
     background-repeat: no-repeat;
@@ -532,7 +538,7 @@ form textarea {
     margin-top: 20px;
   }
 
-  #name-heading{
+  #name-heading {
     line-height: 52px;
     color: #172b4d;
     padding-bottom: 0;
@@ -541,14 +547,14 @@ form textarea {
     animation-name: slidein;
     animation-iteration-count: 1;
   }
-  
+
 
   @keyframes slidein {
     from {
       margin-left: 70%;
       width: 300%;
     }
-  
+
     to {
       margin-left: 0%;
       width: 100%;
