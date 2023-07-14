@@ -402,4 +402,17 @@ form textarea {
     margin-top: -40px;
     padding-bottom: 300px;
   }
+
+  #headline-section p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #172b4d;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 132%;
+  }
 }
