@@ -516,4 +516,18 @@ form textarea {
     width: 40%;
     letter-spacing: 1px;
   }
+
+  .greenbtn {
+    align-self: flex-start;
+    background: #36b37f;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 20px;
+  }
 }
