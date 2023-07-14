@@ -307,19 +307,18 @@ form {
   width: 100%;
 }
 
-.email-span{
+.email-span {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: var(--neutrals-n-500, #42526E);
-  text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px;
-margin: 20px 0;
+  color: var(--neutrals-n-500, #42526e);
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 20px 0;
 }
 
 #contact-form p {
@@ -344,7 +343,7 @@ form input {
   margin-right: auto;
   color: #42526e;
   margin-top: 24px;
-  border: 1px solid var(--theme-2-neutral-9, #D0D9D4);
+  border: 1px solid var(--theme-2-neutral-9, #d0d9d4);
   border-radius: 4px;
 }
 
