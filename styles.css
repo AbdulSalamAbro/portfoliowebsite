@@ -531,4 +531,27 @@ form textarea {
     color: #fff;
     margin-top: 20px;
   }
+
+  #name-heading{
+    line-height: 52px;
+    color: #172b4d;
+    padding-bottom: 0;
+    padding-top: 50%;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+  }
+  
+
+  @keyframes slidein {
+    from {
+      margin-left: 70%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 }
