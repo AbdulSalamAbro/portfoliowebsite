@@ -371,14 +371,14 @@ form textarea {
   border: none;
 }
 
-#desktop-contactform{
+#desktop-contactform {
   display: none;
 }
 
-#desktop-navbar{
+#desktop-navbar {
   display: none;
-
 }
+
 @media (min-width: 768px) {
   #navbar-grid {
     display: grid;
