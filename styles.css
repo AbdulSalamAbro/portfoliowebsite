@@ -387,6 +387,7 @@ form textarea {
     margin-left: 15px;
     font-weight: bold;
     text-decoration: none;
+    font-family:  'Inter', sans-serif;;
   }
 
   #headline-section {
@@ -416,6 +417,20 @@ form textarea {
     line-height: 132%;
   }
 
+  #projects-card {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .project .languages {
+    padding-top: 16px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 12px;
+  }
   #mobile-navbar img{
     display: none;
   }
