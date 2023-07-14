@@ -415,4 +415,8 @@ form textarea {
     margin-right: 20%;
     line-height: 132%;
   }
+
+  #mobile-navbar img{
+    display: none;
+  }
 }
