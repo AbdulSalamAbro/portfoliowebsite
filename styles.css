@@ -370,3 +370,61 @@ form textarea {
   border-radius: 24px;
   border: none;
 }
+
+@media (min-width: 768px) {
+  #navbar-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  #desktop-navbar {
+    grid-column: 6 / span 6;
+    justify-content: center;
+  }
+
+  #desktop-navbar a {
+    color: #3a4a42;
+    margin-left: 15px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  #headline-section {
+    background-image: url("./assets/Header-llustration-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: -40px;
+    padding-bottom: 300px;
+  }
+
+  #headline-section p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #172b4d;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 132%;
+  }
+
+  #mobile-navbar img{
+    display: none;
+  }
+
+  #line hr {
+    display: none;
+  }
+
+  #footer-line hr {
+    display: none;
+  }
+}
