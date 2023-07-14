@@ -387,7 +387,7 @@ form textarea {
     margin-left: 15px;
     font-weight: bold;
     text-decoration: none;
-    font-family:  'Inter', sans-serif;;
+    font-family: 'Inter', sans-serif;
   }
 
   #headline-section {
@@ -455,7 +455,8 @@ form textarea {
     margin-left: 98px;
     margin-right: 98px;
   }
-  #mobile-navbar img{
+
+  #mobile-navbar img {
     display: none;
   }
 
