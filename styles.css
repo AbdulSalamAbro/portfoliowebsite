@@ -199,7 +199,7 @@ header {
   border-radius: 4px;
   padding: 12px;
   color: #fff;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .greenbtn:hover {
@@ -307,6 +307,21 @@ form {
   width: 100%;
 }
 
+.email-span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--neutrals-n-500, #42526E);
+  text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+margin: 20px 0;
+}
+
 #contact-form p {
   width: 327px;
   height: 363px;
@@ -323,19 +338,19 @@ form {
 }
 
 form input {
-  padding: 10px;
-  padding-right: 110px;
+  padding: 15px 10px;
+  padding-right: 35%;
   margin-left: auto;
   margin-right: auto;
   color: #42526e;
   margin-top: 24px;
-  border: 1px solid #42526e;
+  border: 1px solid var(--theme-2-neutral-9, #D0D9D4);
   border-radius: 4px;
 }
 
 form textarea {
   padding: 10px;
-  padding-right: 130px;
+  padding-right: 40%;
   margin-left: auto;
   margin-right: auto;
   color: #42526e;
