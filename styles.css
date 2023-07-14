@@ -388,4 +388,18 @@ form textarea {
     font-weight: bold;
     text-decoration: none;
   }
+
+  #headline-section {
+    background-image: url("./assets/Header-llustration-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: -40px;
+    padding-bottom: 300px;
+  }
 }
