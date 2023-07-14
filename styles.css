@@ -500,4 +500,20 @@ form textarea {
     padding: 10px 0 10px 10px;
     min-height: 114px;
   }
+
+  #desktop-contactform p {
+    margin-left: 10%;
+    margin-top: 60px;
+    grid-column: 1 /span 7;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: left;
+    color: #172b4d;
+    line-height: 132%;
+    width: 40%;
+    letter-spacing: 1px;
+  }
 }
