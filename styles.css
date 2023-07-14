@@ -419,4 +419,12 @@ form textarea {
   #mobile-navbar img{
     display: none;
   }
+
+  #line hr {
+    display: none;
+  }
+
+  #footer-line hr {
+    display: none;
+  }
 }
