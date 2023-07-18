@@ -32,7 +32,8 @@
 
 # 📖 Mobile-Version-Portfolio <a name="about-project"></a>
 
-**Portfolio-setup-and-mobile-first** is a first Project of Microverse Module 1  to showcase html and css skills gained during week 1 of the Microverse program.
+**Portfolio website projectt** 
+This is the First Project of Module 1 of Full Stack Web development Program offered by Microverse which aims to improve our HTML and CSS skills by implementing Figma Designs into our Code
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -125,6 +126,12 @@ To run tests, run the following command:
 - Twitter: [@Abdul Salam](https://twitter.com/Abdul_SalamAbro)
 - LinkedIn: [@Abdul Salam](https://www.linkedin.com/in/abdul-salam-abro/)
 
+👤 **Filbert Daniel**
+
+- GitHub: [@githubhandle](https://github.com/FilbertKimasa)
+- Twitter: [@twitterhandle](https://twitter.com/filbertdan67)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/filbert-daniel-32b118143)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,10 +144,8 @@ To run tests, run the following command:
 
 These are the coming soon features for this project:
 
-1.  Recent works
-2.  "About me" section.
-3.  Languages, frameworks and skills section.
-4.  Contact form & footer sections.
+1.  Desktop Responsive Design
+2.  Popup menu of Navigation bar for Mobile Version
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,7 +171,7 @@ Please star this project if you like this project.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
+- Original design idea by Microverse
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
