@@ -144,9 +144,8 @@ To run tests, run the following command:
 
 These are the coming soon features for this project:
 
-1.  Desktop Responsive Design
-2.  Popup menu of Navigation bar for Mobile Version
-
+1.  Popup menu of Navigation bar for Mobile Version
+2.  Deploy on github pages
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
