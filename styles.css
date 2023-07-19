@@ -371,14 +371,6 @@ form textarea {
   border: none;
 }
 
-#navbar-grid {
-  display: none;
-}
-
-#desktop-contactform {
-  display: none;
-}
-
 @media (min-width: 768px) {
   #navbar-grid {
     display: grid;
@@ -395,7 +387,7 @@ form textarea {
     margin-left: 15px;
     font-weight: bold;
     text-decoration: none;
-    font-family: 'Inter', sans-serif;
+
   }
 
   #headline-section {
@@ -425,46 +417,7 @@ form textarea {
     line-height: 132%;
   }
 
-  #projects-card {
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
 
-  .project .languages {
-    padding-top: 16px;
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    gap: 12px;
-  }
-
-  #about-myself p {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    text-align: center;
-    color: #42526e;
-    padding-left: 230px;
-    padding-right: 230px;
-    box-sizing: border-box;
-  }
-
-  #portfolio-skills {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: minmax(300px, auto);
-    row-gap: 20px;
-    justify-content: center;
-    column-gap: 10px;
-    margin-left: 98px;
-    margin-right: 98px;
-  }
-
-  #mobile-navbar img {
     display: none;
   }
 
@@ -476,67 +429,3 @@ form textarea {
     display: none;
   }
 
-  #contact-form {
-    display: none;
-  }
-
-  #desktop-contactform {
-    display: flex;
-    flex-direction: row;
-    background: url(assets/contactbg.PNG);
-    background-repeat: no-repeat;
-    background-size: 100% 90%;
-    width: 100%;
-    padding-bottom: 100px;
-    margin-top: 60px;
-  }
-
-  form input {
-    align-self: flex-start;
-    width: 85%;
-    padding: 10px 0 10px 10px;
-    margin: 0;
-    color: #42526e;
-  }
-
-  form textarea {
-    align-self: flex-start;
-    margin: 0;
-    color: #42526e;
-    border: 1px solid #60c095;
-    border-radius: 4px;
-    width: 85%;
-    padding: 10px 0 10px 10px;
-    min-height: 114px;
-  }
-
-  #desktop-contactform p {
-    margin-left: 10%;
-    margin-top: 60px;
-    grid-column: 1 /span 7;
-    justify-content: center;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    text-align: left;
-    color: #172b4d;
-    line-height: 132%;
-    width: 40%;
-    letter-spacing: 1px;
-  }
-
-  .greenbtn {
-    align-self: flex-start;
-    background: #36b37f;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    border: none;
-    border-radius: 4px;
-    color: #fff;
-    margin-top: 20px;
-  }
-}
