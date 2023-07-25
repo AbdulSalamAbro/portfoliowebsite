@@ -1,17 +1,17 @@
 function applyOnMobile() {
-  const openBtn = document.getElementById("openbtn");
-  const closeBtn = document.getElementById("closebtn");
-  const menuLink1 = document.getElementById("menu-link1");
-  const menuLink2 = document.getElementById("menu-link2");
-  const menuLink3 = document.getElementById("menu-link3");
-  const navBar = document.getElementById("navbar-grid");
+  const openBtn = document.getElementById('openbtn');
+  const closeBtn = document.getElementById('closebtn');
+  const menuLink1 = document.getElementById('menu-link1');
+  const menuLink2 = document.getElementById('menu-link2');
+  const menuLink3 = document.getElementById('menu-link3');
+  const navBar = document.getElementById('navbar-grid');
 
   function openMenu() {
-    navBar.style.left = "0";
+    navBar.style.left = '0';
   }
 
   function closeMenu() {
-    navBar.style.left = "100%";
+    navBar.style.left = '100%';
   }
 
   function removeMenu(event) {
@@ -19,7 +19,7 @@ function applyOnMobile() {
       case menuLink1:
       case menuLink2:
       case menuLink3:
-        navBar.style.left = "100%";
+        navBar.style.left = '100%';
         break;
       default:
     }
@@ -30,13 +30,13 @@ function applyOnMobile() {
   document.onclick = removeMenu;
 }
 
-const mobileQuery = window.matchMedia("(max-width: 768px)");
+const mobileQuery = window.matchMedia('(max-width: 768px)');
 
 function controlMobileScreen(event) {
   if (event.matches) {
     applyOnMobile();
   } else {
-    document.getElementById("navbar-grid").style.left = "0";
+    document.getElementById('navbar-grid').style.left = '0';
   }
 }
 
