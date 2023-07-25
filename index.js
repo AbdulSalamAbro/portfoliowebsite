@@ -35,6 +35,8 @@ const mobileQuery = window.matchMedia("(max-width: 768px)");
 function controlMobileScreen(event) {
   if (event.matches) {
     applyOnMobile();
+  } else {
+    document.getElementById("navbar-grid").style.left = "0";
   }
 }
 

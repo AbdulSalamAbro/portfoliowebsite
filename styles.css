@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-header {
+#top-header {
   display: flex;
   align-items: flex-end;
   flex-direction: column;
@@ -372,9 +372,6 @@ form textarea {
 }
 
 #navbar-grid {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   position: fixed;
   top: 0;
   left: 100%;
