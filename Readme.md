@@ -19,7 +19,7 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -110,6 +110,12 @@ To run tests, run the following command:
   npx eslint .
 ```
 
+### Deployment
+
+- Deployed with github pages at:
+- https://abdulsalamabro.github.io/portfoliowebsite/
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
