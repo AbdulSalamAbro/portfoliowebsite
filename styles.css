@@ -372,7 +372,17 @@ form textarea {
 }
 
 #navbar-grid {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: fixed;
+  top: 0;
+  left: 100%;
+  background-color: #fff;
+  height: 94vh;
+  width: 100vw;
+  border-radius: 0 0 20px 20px;
+  transition: 0.4s;
 }
 
 #desktop-contactform {
