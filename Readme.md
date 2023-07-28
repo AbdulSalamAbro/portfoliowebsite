@@ -48,6 +48,8 @@ This is the First Project of Module 1 of Full Stack Web development Program offe
 
 - **Responsive Pages**
 - **USe Css FlexBox and Grid Css**
+- **Dynamic Popup cards**
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -156,8 +158,7 @@ To run tests, run the following command:
 
 These are the coming soon features for this project:
 
-1.  Popup menu of Navigation bar for Mobile Version
-2.  Deploy on github pages
+1.  Add Local Storage
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
