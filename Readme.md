@@ -138,6 +138,12 @@ To run tests, run the following command:
 - Twitter: [@twitterhandle](https://twitter.com/filbertdan67)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/filbert-daniel-32b118143)
 
+👤 **Al Amin**
+
+- GitHub: [Al Amin Khan Shakil](https://github.com/Al-Amin-Khan-Shakil)
+- Twitter: [Al Amin Khan Shakil](https://https://twitter.com/AlAminKhan85004)
+- LinkedIn: [Al Amin Khan Shakil](https://https://www.linkedin.com/in/al-amin-khan-shakil-5a3b29252/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

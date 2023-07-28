@@ -14,19 +14,20 @@
     />
   </head>
   <body>
-    <header>
+    <header id="top-header">
       <nav id="mobile-navbar">
-        <img src="assets/menu.png" alt="" />
+        <img src="assets/menu.png" alt="" id="openbtn"/>
       </nav>
     </header>
     <section id="headline-section">
       <header id="navbar-grid">
+        <a href="#" id="closebtn">&times;</a>
         <nav id="desktop-navbar">
-            <a href="#home">Portfolio</a>
-            <a href="#About">About</a>
-            <a href="#Contact">Contact</a> 
-    </nav>
-    </header>
+            <a href="#work-section" id="menu-link1">Portfolio</a>
+            <a href="#about-myself" id="menu-link2">About</a>
+            <a href="#contact-form" id="menu-link3">Contact</a> 
+        </nav>
+      </header>
       <div class="container">
         <h1>
           <span id="name-heading">
@@ -320,11 +321,14 @@
           </li>
         </ul>
       </section>
-
       <div id="footer-line">
         <hr />
       </div>
     </footer>
+    
+    <!--javaScript-->
+    <script src="index.js"></script>
+    <!--javaScript-->
   </body>
 </html>
 
