@@ -421,7 +421,6 @@ form textarea {
 
 #errorMsg {
   align-self: flex-start;
-
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -431,7 +430,7 @@ form textarea {
   border-radius: 4px;
   color: red;
   margin-top: 10px;
-  padding-left: 100px;;
+  padding-left: 100px;
 }
 
 @media (min-width: 768px) {
@@ -610,7 +609,6 @@ form textarea {
 
   #errorMsg {
     align-self: flex-start;
-
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
