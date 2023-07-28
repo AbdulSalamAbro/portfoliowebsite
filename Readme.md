@@ -48,7 +48,9 @@ This is the First Project of Module 1 of Full Stack Web development Program offe
 
 - **Responsive Pages**
 - **USe Css FlexBox and Grid Css**
-
+- **Dynamic Work Section**
+- **Dynamic Popup**
+- **Form Validation**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
