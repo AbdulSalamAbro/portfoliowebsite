@@ -156,6 +156,9 @@
   text-align: center;
   padding-top: 16px;
   color: #3a4a42;
+  width: 200px;
+  text-align: center;
+  margin: auto;
 }
 
 .languages {
